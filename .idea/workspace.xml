@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a110756f-0048-43c4-a7c2-c881ccde611e" name="Default Changelist" comment="" />
+    <list default="true" id="a110756f-0048-43c4-a7c2-c881ccde611e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blockchainInit/MVC/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blockchainInit/MVC/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blockchainInit/WEB-INF/classes/com/blockchainInit/MVC/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blockchainInit/WEB-INF/classes/com/blockchainInit/MVC/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blockchainInit/WEB-INF/view/counter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blockchainInit/WEB-INF/view/counter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blockchainInit/WEB-INF/view/main-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blockchainInit/WEB-INF/view/main-menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blockchainInit/MVC/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/blockchainInit/MVC/HomeController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +28,9 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -36,7 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UemoMesK66Ebk3Iejho6nFV4n6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
@@ -189,11 +202,22 @@
       <workItem from="1576189522515" duration="2641000" />
       <workItem from="1576192204928" duration="5350000" />
       <workItem from="1576215932776" duration="14381000" />
-      <workItem from="1576244684204" duration="3536000" />
+      <workItem from="1576244684204" duration="5056000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

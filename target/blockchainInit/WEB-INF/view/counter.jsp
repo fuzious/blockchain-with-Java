@@ -15,9 +15,9 @@
 <body>
     <form:form action="operation" modelAttribute="operationType">
 
-        Increment <form:radiobutton path="operationType" value="increment"/>
-        Decrement <form:radiobutton path="operationType" value="decrement"/>
-        GetValue  <form:radiobutton path="operationType" value="getValue"/>
+        Deposit 1 <form:radiobutton path="operationType" value="increment"/>
+        Deduct 1 <form:radiobutton path="operationType" value="decrement"/>
+        GetBalance  <form:radiobutton path="operationType" value="getValue"/>
 
         <input type="submit" value="Submit"/>
     </form:form>
