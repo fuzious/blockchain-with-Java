@@ -26,5 +26,4 @@ public class HomeController {
         theModel.addAttribute("number",Integer.parseInt(out)-6+"");  //subtracting 5 since the solidty code contained the initial global variable value as 1
         return "visitor";
     }
-
 }
