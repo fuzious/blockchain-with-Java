@@ -1,5 +1,6 @@
 package com.blockchainInit.webservice.rest;
 
+import com.blockchainInit.MVC.Operation;
 import com.blockchainInit.webservice.entity.Block;
 import com.blockchainInit.webservice.entity.Chain;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -18,17 +19,15 @@ import java.util.List;
 public class BlockRestController {
 
 	@GetMapping("/hash")
-	public String getHash () {
+	public Operation getHash () {
 		Chain x=new Chain();
 		x.addBlock(new Block("0","Udacity Blockchain Developer",1538509789));
 		x.addBlock(new Block("1" ,"Udacity Blockchain Developer Rock!",1538509789));
-		return (getHash(x.getChain().get(1)));
+		Operation op=new Operation();
+		op.setOperationType(getHash(x.getChain().get(1)));
+		return (op);
 	}
 
-	@PostMapping("/hash")
-	public String postHash () {
-		return getHash();
-	}
 
 	public String getHash( Block x) {
 		ObjectMapper objectMapper=new ObjectMapper();

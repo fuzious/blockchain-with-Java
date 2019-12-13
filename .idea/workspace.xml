@@ -7,10 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a110756f-0048-43c4-a7c2-c881ccde611e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HelloWorld.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blockchainInit/MVC/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blockchainInit/MVC/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blockchainInit/webservice/rest/BlockRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blockchainInit/webservice/rest/BlockRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blockchainInit/WEB-INF/classes/com/blockchainInit/MVC/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blockchainInit/WEB-INF/classes/com/blockchainInit/MVC/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blockchainInit/WEB-INF/classes/com/blockchainInit/webservice/rest/BlockRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blockchainInit/WEB-INF/classes/com/blockchainInit/webservice/rest/BlockRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blockchainInit/MVC/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/blockchainInit/MVC/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blockchainInit/webservice/rest/BlockRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/blockchainInit/webservice/rest/BlockRestController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +202,7 @@
       <workItem from="1576189522515" duration="2641000" />
       <workItem from="1576192204928" duration="5350000" />
       <workItem from="1576215932776" duration="14381000" />
-      <workItem from="1576244684204" duration="7075000" />
+      <workItem from="1576244684204" duration="13247000" />
     </task>
     <servers />
   </component>
