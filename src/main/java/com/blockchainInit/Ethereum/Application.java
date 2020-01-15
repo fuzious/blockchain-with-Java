@@ -35,22 +35,22 @@ public class Application {
 		log.info("Connected to Ethereum client version: "
 				+ web3j.web3ClientVersion().send().getWeb3ClientVersion());
 //		Credentials credentials = WalletUtils.loadCredentials("password", "chaindata\\keystore\\UTC--2018-06-21T06-34-32.658490800Z--5ade9a7f8f57ab3995ac4d56c78a22649d3b1686");
-		Credentials credentials=Credentials.create(`sender key goes here`);
+		Credentials credentials=Credentials.create("4d9b6a18dd42c142cce1784b36f97c2093176793c087bf1d96e13a8af63ef43d");
 		log.info("Credentials loaded");
 		log.info("Sending Ether ..");
-
+//
 //		TransactionReceipt transferReceipt = Transfer.sendFunds(web3j, credentials, "0xDc1Fb60F7E1eF6ef052A014EFbDF82debd803D06",  // you can put any address here
 //				BigDecimal.valueOf(100), Convert.Unit.ETHER)  // 1 wei = 10^-18 Ether
 //				.sendAsync().get();
 //		log.info("Transaction complete : "
 //				+ transferReceipt.getTransactionHash());
-
-
-		// Now lets deploy a smart contract
+//
+//
+//		 Now lets deploy a smart contract
 		log.info("Deploying smart contract");
 
 		HelloWorld_sol_HelloWorld contract = HelloWorld_sol_HelloWorld.deploy(web3j, credentials, ManagedTransaction.GAS_PRICE, Contract.GAS_LIMIT).send();
-		System.out.println("Smart Contract Deployed");
+			System.out.println("Smart Contract Deployed");
 		return contract;
 	}
 
