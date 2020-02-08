@@ -17,12 +17,18 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <java-ipfs-http-client.version>v1.2.3</java-ipfs-http-client.version>
   </properties>
 
   <repositories>
     <repository>
       <id>gitlab-maven</id>
       <url>https://gitlab.com/api/v4/projects/14189257/packages/maven</url>
+    </repository>
+
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
     </repository>
   </repositories>
 
@@ -110,6 +116,12 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.ipfs</groupId>
+      <artifactId>java-ipfs-http-client</artifactId>
+      <version>${java-ipfs-http-client.version}</version>
     </dependency>
   </dependencies>
 

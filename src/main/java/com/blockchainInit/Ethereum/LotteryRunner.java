@@ -19,8 +19,6 @@ import java.math.BigInteger;
 import java.util.List;
 
 public class LotteryRunner {
-	static BigInteger GAS_LIMIT = BigInteger.valueOf(6721975L);
-	static BigInteger GAS_PRICE = BigInteger.valueOf(20000000000L);
 	private static final Logger log = LoggerFactory.getLogger(LotteryRunner.class);
 	public static void main(String[] args) throws Exception {
 		BasicConfigurator.configure();
@@ -29,7 +27,7 @@ public class LotteryRunner {
 		Credentials credentials1=Credentials.create("4d9b6a18dd42c142cce1784b36f97c2093176793c087bf1d96e13a8af63ef43d");
 		Credentials credentials2=Credentials.create("e0299a26047efbafb650b1d697ea2095be4239d23ac1bbc8fdbb5ee39a91ae9c");
 //		Lottery_sol_Lottery contract = Lottery_sol_Lottery.deploy(web3j, credentials,ManagedTransaction.GAS_PRICE, Contract.GAS_LIMIT).send();
-//		Lottery lottery = Lottery.deploy(web3j,credentials, ManagedTransaction.GAS_PRICE,Contract.GAS_LIMIT,new BigInteger("0")).send();
+		Lottery lottery = Lottery.deploy(web3j,credentials1, ManagedTransaction.GAS_PRICE,Contract.GAS_LIMIT,new BigInteger("0")).send();
 //		lottery.enter(Convert.toWei("0.02", Convert.Unit.ETHER).toBigInteger());
 		Lottery lottery1 = Lottery.load(contractAddress,web3j,credentials1,ManagedTransaction.GAS_PRICE,Contract.GAS_LIMIT);
 		Lottery lottery2 = Lottery.load(contractAddress,web3j,credentials2,ManagedTransaction.GAS_PRICE,Contract.GAS_LIMIT);

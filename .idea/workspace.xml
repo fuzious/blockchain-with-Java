@@ -7,16 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a110756f-0048-43c4-a7c2-c881ccde611e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lottery.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blockchainInit/Ethereum/Campaign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blockchainInit/Ethereum/CampaignFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blockchainInit/Ethereum/CampaignRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blockchainInit/IPFS/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/blockchainInit/Ethereum/LotteryRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blockchainInit/Ethereum/LotteryRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/blockchainInit/Ethereum/Lottery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/blockchainInit/Ethereum/Lottery.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/blockchainInit/Ethereum/LotteryRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/blockchainInit/Ethereum/LotteryRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/blockchainInit/Ethereum/Lottery_sol_Lottery$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/blockchainInit/Ethereum/Lottery_sol_Lottery$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/blockchainInit/Ethereum/Lottery_sol_Lottery$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/blockchainInit/Ethereum/Lottery_sol_Lottery$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/blockchainInit/Ethereum/Lottery_sol_Lottery.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/blockchainInit/Ethereum" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -68,8 +67,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\src\projects\blockchainInit" />
       <recent name="D:\src\projects\blockchainInit\src\main\java\com\blockchainInit\Ethereum" />
+      <recent name="D:\src\projects\blockchainInit" />
       <recent name="D:\src\projects\blockchainInit\src\main\webapp\WEB-INF\view" />
       <recent name="D:\src\projects\blockchainInit\src\main\java\com\blockchainInit\MVC" />
       <recent name="D:\src\projects\blockchainInit\src\main\webapp\WEB-INF" />
@@ -86,7 +85,7 @@
   </component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.blockchainInit.Ethereum.LotteryRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.blockchainInit.IPFS.App" />
       <module name="blockchainInit" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,6 +224,17 @@
       <workItem from="1579179843001" duration="1831000" />
       <workItem from="1579440375457" duration="17000" />
       <workItem from="1579459680747" duration="2424000" />
+      <workItem from="1579531516055" duration="1597000" />
+      <workItem from="1579611966457" duration="1943000" />
+      <workItem from="1579718438961" duration="1488000" />
+      <workItem from="1579800605481" duration="535000" />
+      <workItem from="1579801950730" duration="2658000" />
+      <workItem from="1579805595608" duration="6014000" />
+      <workItem from="1579853724506" duration="1370000" />
+      <workItem from="1580005549283" duration="35000" />
+      <workItem from="1580066598370" duration="4380000" />
+      <workItem from="1580116773197" duration="1452000" />
+      <workItem from="1580156990333" duration="16000" />
     </task>
     <servers />
   </component>
@@ -245,37 +255,37 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579106514233">
+    <state x="137" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580069307696">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="137" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1579106514233" />
-    <state x="412" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578945030650">
+    <state x="137" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1580069307696" />
+    <state x="412" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580069306038">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="412" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1578945030650" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1579465782362">
+    <state x="412" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1580069306038" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1580073701226">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1579465782362" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1579465782362">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580073701226" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1580073701226">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1579465782362" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1579465782362">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580073701226" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1580073701226">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1579465782362" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1579465782362">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580073701226" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1580073701226">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1579465782362" />
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1579531684272">
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580073701226" />
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1580156992792">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1579531684272" />
-    <state x="339" y="172" width="672" height="677" key="run.anything.popup" timestamp="1579440389809">
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580156992792" />
+    <state x="339" y="172" width="672" height="677" key="run.anything.popup" timestamp="1580157004874">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="339" y="172" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1579440389809" />
+    <state x="339" y="172" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1580157004874" />
   </component>
 </project>
