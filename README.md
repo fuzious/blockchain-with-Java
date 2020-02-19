@@ -2,7 +2,7 @@
 <p align="center">
 </p>
 
-<h1 align="center">Blockchain with Java</h1>
+<h1 align="center">Ethereum with Java</h1>
 
 <h3 align="center">Initiating Blockchain and Ethereum in Java</h3>
 
