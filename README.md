@@ -20,6 +20,8 @@ For Hashing and Recovering files explore **com.blockchainInit.encodingFiles** pa
 
 For Creating a Rest handler and implementing a simple blockchain explore **com.blockchainInit.webservice** package
 
+For Uploading a file to IPFS via Infura see **com.blockchainInit.IPFS** to store a simple text file to IPFS
+
 For Creating a webapp with a smartcontract explore **com.blockchainInit.MVC** after: 
 
 - Compile the solidity file with `solcjs` command `solcjs HelloWorld.sol --bin --abi --optimize -o ./ `
